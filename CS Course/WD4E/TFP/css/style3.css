@@ -1,0 +1,189 @@
+body{
+    margin: 2%;
+    padding: 10px;
+}
+
+header{
+    background: #B3B3B3;
+    background-image: url("../images/flywheel.jpg");
+    background-size: 100%;
+    padding: 5%;
+}
+
+h1{
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase; 
+    font-size: x-large;
+}
+
+/* nav a{
+    text-align: center;
+    color:#000000;
+	background: rgba(218,234,213,0.60);
+    display: inline-block;
+    width: 20%;
+    margin: 2%;
+    padding: 2%;
+    text-decoration: none;
+    -webkit-border-radius: 3;
+	-moz-border-radius: 3;
+	-o-border-radius: 3;
+	border-radius: 5px;
+    font-size: 24px;
+} */
+
+.active{
+    color: #0000FF;
+	background: #FFFFFF;
+    
+}
+
+table{    
+    padding: 1%;
+    margin: 0 auto;
+    line-height: 20px;
+    width: 96%;
+    padding-bottom: 5%;
+}
+
+th{
+	text-align: center;
+	background: #01ffc8;
+    color: #FFFFFF;
+    line-height: 25px;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 1px solid green;
+}
+
+td{
+	background: #97c597;
+    padding: 0 2%;
+    text-align: center;
+    opacity: 0.6;
+}
+
+th:first-child, tr td:first-child{
+    text-align: left;
+}
+
+tr:hover td{
+    opacity: 1;
+}
+
+.content{
+    font-size: 14px;
+    text-align:justify;
+}
+
+footer{
+    background-color: #01ffc8;
+    height: 55px;
+    text-align: center;
+    line-height: 55px;
+    font-size: 16px;
+    margin: 2% 2%;
+}
+
+
+
+.topnav {
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+}
+  
+.topnav #myLinks {
+    display: none;
+}
+  
+.topnav a {
+    /* margin-top: 2%; */
+    color: royalblue;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+  
+.topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+nav a{
+    display: none;
+}
+  
+@media all and (min-width:900px){
+    nav a{
+        text-align: center;
+        color:#000000;
+        background: rgba(218,234,213,0.60);
+        display: inline-block;
+        width: 20%;
+        margin: 2%;
+        padding: 2%;
+        text-decoration: none;
+        -webkit-border-radius: 3;
+        -moz-border-radius: 3;
+        -o-border-radius: 3;
+        border-radius: 5px;
+        font-size: 24px;
+    }
+
+    .topnav{
+        display: none;
+    }
+
+    .container {
+        clear: both;
+        width: 40%;
+        float:left;
+        padding: 2% 2%;
+    }
+    
+    .content {
+        font-size: 24px;
+        width:60%;
+        display: inline-block;
+        padding: 2% 2%;
+    }
+
+    th{
+        line-height: 60px;
+        border-radius: 10px 10px 0 0;
+        border-bottom: 2px solid green;
+    }
+
+    table{    
+        padding: 1%;
+        margin: 0 auto;
+        line-height: 50px;
+        width: 96%;
+        padding-bottom: 5%;
+    }
+
+    footer{
+        color: white;
+        background-color: grey;
+        height: 75px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 24px;
+        margin: 2% 2%;
+    }
+}
